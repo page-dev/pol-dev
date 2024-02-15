@@ -3,7 +3,12 @@
     font-family: Tahoma;
     margin: 0px;
     padding: 0px;
+
     
+}
+
+body{
+    background-color: rgb(215, 238, 250);
 }
 
 .portBody{
@@ -37,7 +42,7 @@
 }
 #about{
     position: absolute;
-    top: 72%;
+    top: 81%;
     left: 45%;
     color: rgb(0, 0, 0);
     margin-right: 1%;
@@ -83,8 +88,8 @@
 
 .dp{
     position: absolute;
-    left: -26%;
-    top: -22%;
+    left: 6%;
+    top: 5%;
     z-index: 2;
 }
 
@@ -110,12 +115,12 @@
 #rect{
     width: 360px;
     height: 500px;
-    background-color: rgb(215, 215, 215);
+    background-color: rgb(242, 224, 188);
     border: 10px;
     position: absolute;
     left: 2.5%;
     top: 20%;
-    box-shadow: -14px 3px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: -14px 9px 0px rgba(0, 0, 0, 0.3);
     border-radius: 4%;
 }
 
@@ -127,59 +132,43 @@
     background-color: rgb(255, 255, 255);
     position: absolute;
     left: 3%;
-    top: 20%;
+    top: 50%;
     border-radius: 20%;
 }
 
 #dpName{
     position: absolute;
-    left: -26.5%;
-    top: 12%;
+    left: 4.5%;
+    top: 34%;
     z-index: 3;
 
 }
 
 #dpInfo1{
     position: absolute;
-    left: -27.5%;
-    top: 25%;
+    left: 4%;
+    top: 54%;
     color: gray;
 }
 
 #email{
     position: absolute;
-    left: -24%;
-    top: 25%;
+    left: 9%;
+    top: 54%;
     
 }
 
-#dpVert{
-    border-left: 6px solid rgb(0, 0, 0);
-    height: 200px;
-    position: absolute;
-    left: -24.2%;
-    top: 20%;
-}
-
-/* hr {
-    width: 143%;
-    height: 4px;
-    position: absolute;
-    left: -34.5%;
-    top: 128%;
-    background-color: black;
-} */
 
 #num {
     position: absolute;
-    left: -20.5%;
-    top: 33.3%;
+    left: 12%;
+    top: 63.5%;
     /* z-index: 3; */
 }
 
 #occ{
     position: absolute;
-    left: -20.5%;
-    top: 41.3%;
+    left: 12%;
+    top: 72%;
 }
 
