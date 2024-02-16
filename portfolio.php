@@ -73,14 +73,16 @@
        
         echo " $shadow
         $vertLine
-        $box1
-        $box2
-        <div class = 'dp'><img src='assets/dp2.png' alt='' width='250'></div>
-        <div id = 'dpName'><h3><strong>$name</strong></h3></div>
-        <div id = 'dpInfo1'>Email<br><br><br>Contact num<br><br><br>Occupation</div>
-        <div id = 'email'><p>$email</p></div>
-        <div id = 'num'><p>09512580881</p></div>
-        <div id = 'occ'><p>Student</p></div>";
+        <div id = 'rect'>
+            <div id = 'rect2'>
+                <div class = 'dp'><img src='assets/dp2.png' alt='' width='250'></div>
+                <div id = 'dpName'><h3><strong>$name</strong></h3></div>
+                <div id = 'dpInfo1'>Email<br><br><br>Contact num<br><br><br>Occupation</div>
+                <div id = 'email'><p>$email</p></div>
+                <div id = 'num'><p>09512580881</p></div>
+                <div id = 'occ'><p>Student</p></div>
+            </div>
+        </div>";
     ?>
 </body>
 <?php include 'templates/footer.php';?>
