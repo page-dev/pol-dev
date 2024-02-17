@@ -12,9 +12,15 @@
             <h2><strong>Solution</strong></h2>
             <p>echo "Hello World"</p>
             <img src="assets/problem1.png" alt="">
+
+
+
             <?php
-            echo '<br><strong>Output</strong>: Hello World ';
+                echo 'Hello World';
             ?>
+
+
+
         </div>
     </div>
 
@@ -27,10 +33,14 @@
     </ul>
     <h2>Solution</h2>
     <p>$greet = "Hello PHP"<br>echo "$greet</p>
+
+
     <?php
-    $greet = "Hello PHP";
-    echo "<br><strong>Output</strong>: $greet";
-   ?>
+        $greet = "Hello PHP";
+        echo "<br><strong>Output</strong>: $greet";
+    ?>
+
+
    <hr>
 </div>
 
@@ -43,10 +53,14 @@
     </ul>
     <h2>Solution</h2>
     <p>$greet = "PHP World"<br>echo "Welcome to the $greet"</p>
+
+    
     <?php
-    $greets = "PHP World";
-    echo"<br><strong>Output</strong>: Welcome to the $greets"; 
+        $greets = "PHP World";
+        echo"<br><strong>Output</strong>: Welcome to the $greets"; 
     ?>
+
+
 </div>
 
 <?php include 'templates/footer.php';?>
