@@ -16,16 +16,14 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="act02.php">Activity 2</a></li>
-            <li><a href="act03.php">Activity 3</a></li>
-            <li><a href="#">Something else here</a></li>
+            <li><a href="act2.php">Activity 2</a></li>
+            <li><a href="act3.php">Activity 3</a></li>
             <li class="divider"></li>
             <li><a href="portfolio.php">Web Master</a></li>
           </ul>
         </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
       </ul>
     </div>
   </div>

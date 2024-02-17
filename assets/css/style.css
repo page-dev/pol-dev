@@ -2,19 +2,37 @@
 *{
     font-family: Tahoma;
     margin: 0px;
-    padding: 0px;
+    padding: 0px;    
+}
 
-    
+.imgDescription{
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    gap: 3em;
+}
+
+.imgDescription img{
+    width: 100%;
+    height: auto;
+    max-width: 40em;
+    padding-top: 10px;
+}
+
+@media(max-width: 768px) {
+    .imgDescription{
+        flex-direction: column;
+    }
 }
 
 body{
-    background-color: rgb(215, 238, 250);
+    background-color: rgb(203, 202, 191) !important;
 }
 
 .portBody{
     background-color: rgb(215, 238, 250);
-    
 }
+
 .allDiv{
     margin-left: 33% !important;
     margin-top: 10% !important;
@@ -170,4 +188,6 @@ body{
     left: 40%;
     top: 77%;
 }
+
+
 
