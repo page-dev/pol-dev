@@ -14,7 +14,7 @@
       <ul class="nav navbar-nav">
         <li class="active"><a href="home.php">Home <span class="sr-only">(current)</span></a></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Website <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
             <li><a href="act2.php">Activity 2</a></li>
             <li><a href="act3.php">Activity 3</a></li>

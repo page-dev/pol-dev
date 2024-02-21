@@ -16,7 +16,13 @@
     </div>
 </div>
 
+<?php
+    $a = 0;
+    $b = 20;
 
+    $c = ($a > $b) ? "a is bigger than b" : "b is bigger than a";
+    echo "$c"
+?>
 
 
 
