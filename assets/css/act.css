@@ -21,7 +21,7 @@
 
 .box{
     background-color: white;
-    border-radius: 10%;
+    border-radius: 50px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
@@ -31,51 +31,11 @@
     color: rgb(1, 101, 1);
 }
 
-/* .ao2{
-    position: absolute;
-    top: 83%;
-    left: 37%;
+.demo{
+    color: rgb(161, 147, 83);
+    background-color: rgb(241, 241, 241);
+    padding: 8px 20px 8px 20px;
+    border-radius: 5px;
+    margin-left: 43%;
+    border: solid;
 }
-
-.assO1{
-    position: absolute;
-    top: 135%;
-    left: 33%;
-}
-
-.assO2{
-    position: absolute;
-    top: 178%;
-    left: 30%;
-}
-
-.comp1{
-    position: absolute;
-    top: 234%;
-    left: 40%;
-}
-
-.comp2{
-    position: absolute;
-    top: 282%;
-    left: 55%;
-}
-
-.inc1{
-    position: absolute;
-    top: 340%;
-    left: 28%;
-}
-
-.inc2{
-    position: absolute;
-    top: 390%;
-    left: 35%;
-}
-
-.lo1{
-    position: absolute;
-    top: 448%;
-    left: 58%;
-}
- */
