@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "D:/documents/Java files"
+		},
+		{
+			"path": "D:/documents/python files"
+		},
+		{
+			"path": "D:/documents/Java files/project 0"
+		},
+		{
+			"path": "../PHP files"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"java.debug.settings.onBuildFailureProceed": true
+	}
+}

@@ -1,0 +1,16 @@
+.welcome{
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+    margin-top: 5em;
+    /* background-color: white; */
+}
+
+.welcome h1{
+    font-size: 400%;
+}
+
+.welcomeSize{
+    font-size: 200%;
+}
+

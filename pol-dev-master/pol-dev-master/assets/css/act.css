@@ -1,0 +1,41 @@
+.arithmetic{
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+}
+
+
+
+.arithmetic img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    
+}
+
+.adjust{
+    width: 100%;
+    height: auto;
+    max-width: 1500px;
+}
+
+.box{
+    background-color: white;
+    border-radius: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.box p{
+    color: rgb(1, 101, 1);
+}
+
+.demo{
+    color: rgb(161, 147, 83);
+    background-color: rgb(241, 241, 241);
+    padding: 8px 20px 8px 20px;
+    border-radius: 5px;
+    margin-left: 43%;
+    border: solid;
+}
