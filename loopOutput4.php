@@ -7,19 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-
-
 <body>
-    <div class = "container">
-        <?php
-            if (isset($_GET['message'])){
-                $message = $_GET['message'];
-                echo "The message has ". str_word_count($message) ." <word>s";
-            }
-        ?>
-    </div>
+
+
+    <?php
+        echo "<table class = 'numTable'>";
+            for($i=1;$i<=10;$i++){
+                echo "<tr>";
+                for($j=$i;$j<=$i*10;$j+=$i){
+                    echo"<td><strong>$j</strong></td>";
+                }echo "</tr><br>";
+            }echo"</table>";
+    ?>
+
+
 </body>
-
-
 </html>
 <?php include 'templates/footer.php';?>

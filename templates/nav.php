@@ -20,6 +20,7 @@
             <li><a href="act2.php">Activity 2</a></li>
             <li><a href="act3.php">Activity 3</a></li>
             <li><a href="act4.php">Activity 4</a></li>
+            <li><a href="act5.php">Activity 5</a></li>
           </ul>
         </li>
       <ul class="nav navbar-nav navbar-right">

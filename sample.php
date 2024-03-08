@@ -4,7 +4,11 @@
 
 
 <div class = "container">
-    <div class = "imgDescription">
+
+<table class = "numTable">
+    <tr>sample</tr>
+</table>
+<!-- <div class = "imgDescription">
     
         <div>
         <h1>OPERATION TITLE</h1>
@@ -14,15 +18,15 @@
         </div>
         <img src="assets/ao1.png" alt="">
     </div>
-</div>
+</div> -->
 
-<?php
+<!-- <?php
     $a = 0;
     $b = 20;
 
     $c = ($a > $b) ? "a is bigger than b" : "b is bigger than a";
     echo "$c"
-?>
+?> -->
 
 
 
