@@ -95,7 +95,13 @@
             <br><br>
             <div class = "box">
                 <h2><strong>Solution</strong></h2>
-                <p>if(isset($_GET["num"])){<br>&emsp;$num = $_GET["num"];<br>&emsp;$output = 0;<br>&emsp;for($i = 1; $i<=$num;$i++){<br>&emsp;&emsp;$output+=$i;<br>&emsp;}<br>&emsp;echo" User input: $num &#60br&#62 Output: $output";<br>}</p>
+                <p>echo "&#60table class = 'numTable'&#62";<br>
+                        &emsp;for($i=1;$i<=10;$i++){<br>
+                            &emsp;&emsp;echo "&#60tr&#62";<br>
+                            &emsp;&emsp;for($j=$i;$j<=$i*10;$j+=$i){<br>
+                                &emsp;&emsp;&emsp;echo"&#60td&#62&#60strong&#62$j&#60/strong&#62&#60/td&#62";<br>
+                            &emsp;&emsp;}echo "&#60/tr&#62&#60br&#62";<br>
+                            &emsp;}echo"&#60/table&#62";
                 <img src="assets/loop4.png" alt=""><br><br>
                 <?php
                     echo "<strong>Output:</strong>";
@@ -109,7 +115,6 @@
                 ?>
             </div>
             <br><br><br><br>
-
         </div>
     </div>
 </body>
